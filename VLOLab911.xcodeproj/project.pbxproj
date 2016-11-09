@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4F493F1DD38FD300DD4B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F493E1DD38FD300DD4B0A /* AppDelegate.swift */; };
+		AE4F49411DD38FD300DD4B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F49401DD38FD300DD4B0A /* ViewController.swift */; };
+		AE4F49441DD38FD300DD4B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F49421DD38FD300DD4B0A /* Main.storyboard */; };
+		AE4F49461DD38FD300DD4B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4F49451DD38FD300DD4B0A /* Assets.xcassets */; };
+		AE4F49491DD38FD300DD4B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F49471DD38FD300DD4B0A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE4F493B1DD38FD300DD4B0A /* VLOLab911.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLOLab911.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4F493E1DD38FD300DD4B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE4F49401DD38FD300DD4B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE4F49431DD38FD300DD4B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE4F49451DD38FD300DD4B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4F49481DD38FD300DD4B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE4F494A1DD38FD300DD4B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4F49381DD38FD300DD4B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4F49321DD38FD300DD4B0A = {
+			isa = PBXGroup;
+			children = (
+				AE4F493D1DD38FD300DD4B0A /* VLOLab911 */,
+				AE4F493C1DD38FD300DD4B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4F493C1DD38FD300DD4B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F493B1DD38FD300DD4B0A /* VLOLab911.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4F493D1DD38FD300DD4B0A /* VLOLab911 */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F493E1DD38FD300DD4B0A /* AppDelegate.swift */,
+				AE4F49401DD38FD300DD4B0A /* ViewController.swift */,
+				AE4F49421DD38FD300DD4B0A /* Main.storyboard */,
+				AE4F49451DD38FD300DD4B0A /* Assets.xcassets */,
+				AE4F49471DD38FD300DD4B0A /* LaunchScreen.storyboard */,
+				AE4F494A1DD38FD300DD4B0A /* Info.plist */,
+			);
+			path = VLOLab911;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4F493A1DD38FD300DD4B0A /* VLOLab911 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4F494D1DD38FD300DD4B0A /* Build configuration list for PBXNativeTarget "VLOLab911" */;
+			buildPhases = (
+				AE4F49371DD38FD300DD4B0A /* Sources */,
+				AE4F49381DD38FD300DD4B0A /* Frameworks */,
+				AE4F49391DD38FD300DD4B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLOLab911;
+			productName = VLOLab911;
+			productReference = AE4F493B1DD38FD300DD4B0A /* VLOLab911.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4F49331DD38FD300DD4B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KIS;
+				TargetAttributes = {
+					AE4F493A1DD38FD300DD4B0A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AE4F49361DD38FD300DD4B0A /* Build configuration list for PBXProject "VLOLab911" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4F49321DD38FD300DD4B0A;
+			productRefGroup = AE4F493C1DD38FD300DD4B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4F493A1DD38FD300DD4B0A /* VLOLab911 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4F49391DD38FD300DD4B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F49491DD38FD300DD4B0A /* LaunchScreen.storyboard in Resources */,
+				AE4F49461DD38FD300DD4B0A /* Assets.xcassets in Resources */,
+				AE4F49441DD38FD300DD4B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4F49371DD38FD300DD4B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F49411DD38FD300DD4B0A /* ViewController.swift in Sources */,
+				AE4F493F1DD38FD300DD4B0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE4F49421DD38FD300DD4B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4F49431DD38FD300DD4B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE4F49471DD38FD300DD4B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4F49481DD38FD300DD4B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE4F494B1DD38FD300DD4B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE4F494C1DD38FD300DD4B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4F494E1DD38FD300DD4B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VLOLab911/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.agh.kis.VLOLab911;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE4F494F1DD38FD300DD4B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VLOLab911/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.agh.kis.VLOLab911;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4F49361DD38FD300DD4B0A /* Build configuration list for PBXProject "VLOLab911" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4F494B1DD38FD300DD4B0A /* Debug */,
+				AE4F494C1DD38FD300DD4B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4F494D1DD38FD300DD4B0A /* Build configuration list for PBXNativeTarget "VLOLab911" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4F494E1DD38FD300DD4B0A /* Debug */,
+				AE4F494F1DD38FD300DD4B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4F49331DD38FD300DD4B0A /* Project object */;
+}
