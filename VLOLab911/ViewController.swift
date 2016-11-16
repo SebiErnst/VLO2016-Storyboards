@@ -14,13 +14,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     
     
-    @IBAction func buttonPressed(sender: AnyObject) {
+    @IBAction func buttonPressed(_ sender: AnyObject) {
         let name = nameTextField.text!
         let message = "Cześć, \(name)!"
         messageLabel.text = message
     }
     
-    @IBAction func comeBackToMainScreen(segue: UIStoryboardSegue) {
+    @IBAction func comeBackToMainScreen(_ segue: UIStoryboardSegue) {
         
     }
     
@@ -41,8 +41,8 @@ class ViewController: UIViewController {
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let secondViewCtrl = segue.destinationViewController as! SecondViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondViewCtrl = segue.destination as! SecondViewController
         secondViewCtrl.name = nameTextField.text!
     // Get the new view controller using segue.destinationViewController.
     // Pass the selected object to the new view controller.

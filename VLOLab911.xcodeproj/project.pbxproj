@@ -12,7 +12,7 @@
 		AE4F49441DD38FD300DD4B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F49421DD38FD300DD4B0A /* Main.storyboard */; };
 		AE4F49461DD38FD300DD4B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4F49451DD38FD300DD4B0A /* Assets.xcassets */; };
 		AE4F49491DD38FD300DD4B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F49471DD38FD300DD4B0A /* LaunchScreen.storyboard */; };
-		AE4F49511DD39F2900DD4B0A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F49501DD39F2900DD4B0A /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AE4F49511DD39F2900DD4B0A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F49501DD39F2900DD4B0A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					AE4F493A1DD38FD300DD4B0A = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -257,6 +258,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.agh.kis.VLOLab911;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -269,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.agh.kis.VLOLab911;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -291,6 +294,7 @@
 				AE4F494F1DD38FD300DD4B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
